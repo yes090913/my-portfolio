@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>윤은상 | 자기소개서</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>자기소개서</h1>
+            <h2 class="name">윤은상</h2>
+            <p class="subtitle">미래 기술 인재를 꿈꾸는 고등학생</p>
+        </header>
+
+        <section>
+            <h2>📚 학력</h2>
+            <p>고등학교 1학년 재학 중</p>
+        </section>
+
+        <section>
+            <h2>🛠 실무 능력</h2>
+            <ul class="skills">
+                <li>Python</li>
+                <li>Arduino C++</li>
+                <li>Visual Studio</li>
+                <li>SolidWorks</li>
+                <li>Autodesk</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🏆 수상 경력</h2>
+            <ul class="awards">
+                <li>교내대회 은상 (1학기)</li>
+                <li>교내대회 동상 (2학기)</li>
+                <li>공감 오목 한마당 은상</li>
+                <li>디지털 PBL 참가상</li>
+                <li>
+                    제 1회 인공지능 활용 우수사례 공모전<br>
+                    청소년 제작 부문 장려상
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- JS (오류 안 나게 body 맨 아래) -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll("li").forEach(item => {
+                item.addEventListener("mouseover", () => {
+                    item.style.backgroundColor = "#dbe9ff";
+                });
+                item.addEventListener("mouseout", () => {
+                    item.style.backgroundColor = "#eef3f9";
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

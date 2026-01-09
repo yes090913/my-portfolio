@@ -1,0 +1,61 @@
+body {
+    font-family: 'Pretendard', Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+    margin: 5px 0;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 14px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    border-left: 5px solid #4a90e2;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.skills,
+.awards {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills li,
+.awards li {
+    background-color: #eef3f9;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
